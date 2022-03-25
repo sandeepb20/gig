@@ -21,8 +21,7 @@ Use following command to start sever
 npm start
 ```
 
-![alt_text](images/image1.png "image_tooltip")
-
+![alt_text](https://github.com/sandeepb20/gig/blob/master/testImages/runServer.png)
 
 ### **APIs**
 
@@ -57,7 +56,7 @@ Register api will check if entries are valid, also whether the user is already r
 
 
 
-![alt_text](images/image2.png "image_tooltip")
+![alt_text](https://github.com/sandeepb20/gig/blob/master/testImages/register.png)
 
 
 
@@ -71,7 +70,7 @@ Register api will check if entries are valid, also whether the user is already r
 ```
 
 Login api will check if email and password are correct,and login accordingly. And save the details along with a token.
-
+![alt text](https://github.com/sandeepb20/gig/blob/master/testImages/login.png)
 
 3. **api/profile:** User can view his details only if the user is logged in. i.e we need to pass a user's token to view his profile, which is uniquely generated.
 
@@ -90,5 +89,5 @@ Give token as input in  the authorization header as bearer token and api will gi
 ```
 
 
-![alt_text](images/image3.png "image_tooltip")
+![alt_text](https://github.com/sandeepb20/gig/blob/master/testImages/fetch_user_details.png)
 
